@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/* ---------- FONTAWESOME ---------- */
+
+
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+
+
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+
+
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(https://fonts.googleapis.com/css?family=Passion+One:400,700);
+
+/* ---------- GENERAL ---------- */
+
+body {
+  background-color: #C0C0C0;
+  color: #000;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+input {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+}
+
+
+/* ---------- LOGIN ---------- */
+
+#login {
+  margin: 50px auto;
+  width: 400px;
+}
+
+#login h2 {
+  background-color: #f95252;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 28px;
+  padding: 20px 26px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+  margin-right: 14px;
+}
+
+#login fieldset {
+  background-color: #fff;
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
+  padding: 20px 26px;
+}
+
+#login fieldset p {
+  color: #777;
+  margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+  margin-bottom: 0;
+}
+
+#login fieldset input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#login fieldset input[type="text"],
+#login fieldset input[type="password"] {
+  background-color: #eee;
+  color: #777;
+  padding: 4px 10px;
+  width: 328px;
+}
+
+#login fieldset input[type="submit"] {
+  background-color: #33cc77;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 0;
+  width: 100px;
+}
+
+#login fieldset input[type="submit"]:hover {
+  background-color: #28ad63;
+}
+
+
+
+.profile {
+  padding: 30px;
+  margin: 30px auto;
+  width: 40%;
+  min-width: 240px;
+  text-align: center;
+  background: #F4F2F4;
+  border-radius: 2px;
+}
+.profile:hover img {
+  transform: rotate(-3deg);
+}
+.profile:hover .bar span {
+  opacity: 1;
+}
+.profile img {
+  width: 160px;
+  border-radius: 90px;
+  margin-bottom: 28px;
+  box-shadow: 0 8px 6px -6px #555;
+  transition: transform 1s;
+}
+.profile .bar span {
+  width: 20%;
+  opacity: 0.5;
+  display: inline-block;
+  height: 5px;
+  padding: 0;
+  margin: 15px 0;
+  transition: opacity 1s;
+}
+.profile .bar span.one {
+  background-color: #5C96BC;
+}
+.profile .bar span.two {
+  background-color: #42E31B;
+}
+.profile .bar span.three {
+  background-color: #FEDE16;
+}
+.profile .bar span.four {
+  background-color: #E66504;
+}
+.profile .bar span.five {
+  background-color: #C60600;
+}
+.profile h1, .profile h2 {
+  color: #333;
+  text-rendering: optimizeLegibility;
+}
+.profile h1 {
+  font-family: "Sigmar One", Serif;
+  font-size: 24px;
+  line-height: 26px;
+}
+.profile h2 {
+  font-family: "Passion One", Serif;
+  font-size: 20px;
+  line-height: 22px;
+}
